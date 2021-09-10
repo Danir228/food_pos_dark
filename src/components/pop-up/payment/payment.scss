@@ -1,0 +1,44 @@
+.payment {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 1s linear;
+    transform: translateX(-100%);
+    border-radius: 16px;
+    overflow: hidden;
+    z-index: 1;
+
+    &__overlay {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    &__active {
+        transform: translateX(0%);
+        right: 0;
+        left: auto;
+    }
+
+    &__confirmation,
+    &__confirm_payment {
+        background: #1F1D2B;
+    }
+
+    &__confirmation {
+        width: 361px;
+        height: auto;
+        padding: 24px 24px;
+        border-right: 1px solid #393C49;
+    }
+
+    &__confirm_payment {
+        width: 358px;
+        padding: 24px 24px;
+    }
+}

@@ -1,0 +1,49 @@
+.rows-item {
+    margin: 0 0 12px 0;
+    padding: 10px 0;
+    display: flex;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #E0E6E9;
+
+    &__customer {
+        width: 154px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        margin: 10px 35px 0 0;
+    }
+
+    &__customer_image {
+        margin: 0 16px 0 0;
+    }
+
+    &__menu_text {
+        max-width: 137px;
+        margin: 16px 32px 0 0;
+    }
+
+    &__total_payment {
+        width: 100%;
+        max-width: 31px;
+        margin: 16px 119px 0 0;
+    }
+
+    &__status_text {
+        margin: 16px 0 0 0;
+        width: 67px;
+        height: 13px;
+        padding: 4px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+    }
+}

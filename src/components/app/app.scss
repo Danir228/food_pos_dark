@@ -1,0 +1,48 @@
+* {
+    &::-webkit-scrollbar-track {
+        background-color: #000000;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 0px;
+        border-radius: 0px;
+        background-color: #3b3b3b;
+    }
+
+    &::-webkit-resizer {
+        width: 4px;
+        height: 0px
+    }
+
+    &::-webkit-scrollbar {
+        width: 2px;
+    }
+}
+
+#root {
+    overflow: hidden;
+}
+
+.app {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    background: #252836;
+    overflow: auto;
+
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 24px 24px;
+    }
+
+    &__content {
+        width: 100%;
+    }
+}

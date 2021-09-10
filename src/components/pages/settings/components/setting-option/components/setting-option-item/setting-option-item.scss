@@ -1,0 +1,47 @@
+.setting-option-item {
+    width: 227px;
+    height: 39px;
+    padding: 24px 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+        background: rgba(82, 81, 81, 0.7);
+        border-radius: 5px;
+    }
+
+    &__image_wrapper {
+        width: 16px;
+        height: 39px;
+        margin: 0 8px 0 0;
+    }
+
+    &__image {
+        width: 16px;
+        height: 16px;
+    }
+
+    &__title {
+        margin: 0 0 4px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 140%;
+        color: #ABBBC2;
+    }
+
+    &__active {
+        background: rgba(234, 124, 105, 0.26);
+    }
+}

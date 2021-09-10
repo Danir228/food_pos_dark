@@ -1,0 +1,41 @@
+.menu {
+    margin: 24px 0 0 0;
+
+    &__list {
+        height: 33px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        border-bottom: 1px solid #393C49;
+    }
+
+    &__list_item {
+        margin: 0 32px -2px 0;
+        list-style-type: none;
+        transition: border-bottom .2s ease-in-out;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__list_href {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #FFFFFF;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover,
+        :focus {
+            opacity: 0.7;
+        }
+    }
+
+    &__active {
+        color: #EA7C69;
+        border-bottom: 3px solid #EA7C69;
+    }
+}

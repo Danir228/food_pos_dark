@@ -1,0 +1,206 @@
+.orders {
+    position: relative;
+    width: 417px;
+    height: fit-content;
+    max-height: 816px;
+    background: #1F1D2B;
+    border-radius: 8px;
+
+    &__toggle {
+        width: 0;
+        overflow: hidden;
+        background: inherit;
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+
+        &__button {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            background: #1F1D2B;
+            color: #fff;
+            border: none;
+
+            &__active {
+                border: 1px solid;
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media (max-width: 1420px) {
+        width: 40px;
+        overflow: hidden;
+
+        &__toggle {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            padding-top: 40px;
+            border-radius: 10px;
+
+            &__active {
+                width: 50px;
+                height: fit-content;
+                top: 0;
+                right: 15px;
+                padding-top: 5px;
+                padding-left: 5px;
+                border-radius: 10px;
+            }
+
+            &__text {
+                margin: 10px 0 0 0;
+                max-width: 10px;
+                color: #fff;
+                overflow-wrap: break-word;
+                word-break: break-word;
+                line-height: 50px;
+            }
+        }
+
+        &__open {
+            position: absolute;
+            width: 100%;
+            max-width: 417px;
+            right: 0;
+            overflow: visible;
+            transition: width 1s linear;
+            z-index: 1;
+        }
+
+        &__close {
+            width: 40px;
+            overflow: hidden;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    &__container {
+        margin: 24px 24px;
+    }
+
+    &__title {
+        margin: 0 0 24px 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    &__selectors {
+        margin: 24px 0 0 0;
+    }
+
+    &__selectors_item {
+        width: fit-content;
+        height: 34px;
+        margin: 0 8px 0 0;
+        padding: 7px 12px;
+        background: #1F1D2B;
+        border: 1px solid #393C49;
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: #EA7C69;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__subtitle {
+        max-width: 358px;
+        margin: 24px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__subtitle_item {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+
+        &:nth-child(1) {
+            margin: 0 43px 0 0;
+        }
+    }
+
+    &__content {
+        overflow: hidden auto;
+        min-height: 438px;
+        max-height: 438px;
+        border-bottom: 1px solid #393C49;
+
+        &:hover,
+        :focus {
+            overflow-y: scroll;
+        }
+    }
+
+    &__total {
+        margin: 24px 0 0 0;
+    }
+
+    &__discount {
+        margin: 0 0 16px 0;
+    }
+
+    &__discount,
+    &__subtotal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 23px;
+    }
+
+    &__discount_name,
+    &__subtotal_name {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #ABBBC2;
+    }
+
+    &__discount_price,
+    &__subtotal_price {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    &__button_payment {
+        margin: 42px 0 0 0;
+        width: 361px;
+        height: 48px;
+        background: #EA7C69;
+        box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #FAFAFA;
+
+        &:hover, &:focus {
+            opacity: 0.8;
+        }
+    }
+}

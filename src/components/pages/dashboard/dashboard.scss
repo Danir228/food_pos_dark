@@ -1,0 +1,13 @@
+.dashboard {
+    display: flex;
+
+    &__column_1 {
+        margin: 8px 24px 24px 24px;
+    }
+
+    &__header {
+        max-width: 646px;
+        padding: 0 0 24px 0;
+        border-bottom: 1px solid #393C49;
+    }
+}

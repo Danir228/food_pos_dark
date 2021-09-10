@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('./fonts/icomoon.ttf?79s1cf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icon-dashboard {
+    &:before {
+        content: "\e900";
+    }
+}
+
+.icon-discount {
+    &:before {
+        content: "\e901";
+    }
+}
+
+.icon-home {
+    &:before {
+        content: "\e902";
+    }
+}
+
+.icon-logo {
+    font-size: 33px !important;
+
+    &:before {
+        content: "\e903";
+    }
+}
+
+.icon-logout {
+    &:before {
+        content: "\e904";
+    }
+}
+
+.icon-message {
+    &:before {
+        content: "\e905";
+    }
+}
+
+.icon-notification {
+    &:before {
+        content: "\e906";
+    }
+}
+
+.icon-settings {
+    &:before {
+        content: "\e907";
+    }
+}
+
+.sidebar {
+    width: 104px;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F1D2B;
+    border-radius: 16px;
+
+    &__logo_wrapper {
+        position: relative;
+        width: 56px;
+        height: 56px;
+        background: #EB966A;
+        // opacity: 0.26;
+        border-radius: 12px;
+
+        i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            color: #EA6969;
+        }
+    }
+
+    &__items {
+        width: 92px;
+        height: 102px;
+        display: flex;
+        margin: 0 0 0 12px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 16px;
+        transition: all 0.5s;
+    }
+
+    &__logo {
+        margin: 0;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 18px 0 0;
+        font-family: 'icomoon' !important;
+        font-style: normal;
+        font-size: 20px;
+        color: #ea7c69;
+
+        &:hover,
+        :focus {
+            color: #fff !important;
+        }
+    }
+
+    &__active {
+        background: #252836;
+        border-radius: 12px 0px 0px 12px;
+
+        i {
+            width: 56px;
+            height: 56px;
+            background: #EA7C69;
+            box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+            border-radius: 8px;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.orders-notification {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(50%, 50%);
+    width: fit-content;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 101;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 0, 0);
+    background: #656772;
+    border-radius: 8px;
+    transition: all .3s linear;
+    color: #fff;
+    font-size: 24px;
+
+    &__active {
+        height: fit-content;
+        padding: 5px;
+        transform: translate(-50%, -50%);
+    }
+}

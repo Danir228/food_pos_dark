@@ -1,0 +1,133 @@
+.food-menu-item {
+    position: relative;
+    width: 192px;
+    height: 260px;
+    margin: 24px 12px 24px 0;
+    color: #fff;
+
+    &__image {
+        position: absolute;
+        width: 132px;
+        height: 132px;
+        top: -34px;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, 0);
+        border-radius: 8px;
+    }
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 192px;
+        height: fit-content;
+        margin: 34px 0 0 0;
+        padding: 114px 0 0 0;
+        background: #1F1D2B;
+        border-radius: 16px;
+        transition: transform 0.2s linear;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 0px 4px 4px 4px #565656;
+        }
+    }
+
+    &__name {
+        max-width: 80px;
+        margin: 0 24px 8px 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: context-menu;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__price {
+        margin: 0 24px 4px 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        margin: 0 24px 24px 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        color: #ABBBC2;
+    }
+
+    &__button {
+        margin: 0 0 20px 0;
+
+        &:hover,
+        :focus {
+            opacity: 0.8;
+        }
+    }
+
+    &__name_modal {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        height: 0;
+        padding: 0;
+        max-height: 226px;
+        overflow: hidden;
+        z-index: 100;
+        text-align: center;
+        background: #656772;
+        border-radius: 8px;
+        transition: all .3s linear;
+    }
+
+    .active_name_modal {
+        height: fit-content;
+        max-height: 100%;
+        overflow: visible;
+        padding: 10px;
+    }
+
+    &__notification {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+        width: fit-content;
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        z-index: 101;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-color: rgb(252, 0, 0);
+        background: #656772;
+        border-radius: 8px;
+        transition: all .3s linear;
+    }
+
+    &__notification_active {
+        height: fit-content;
+        padding: 5px;
+        transform: translateY(-50%);
+    }
+}

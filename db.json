@@ -1,0 +1,392 @@
+{
+  "hot-dishes": [
+    {
+      "id": 1,
+      "image": "https://restexpert.com/uploads/recipe/329/644x483/2623.jpg",
+      "name": "Appetizer 'Sky and Earth'",
+      "price": 2.29,
+      "text": "20 Bowls available"
+    },
+    {
+      "id": 2,
+      "image": "https://restexpert.com/uploads/recipe/334/644x483/3026.jpg",
+      "name": "Bacon pancakes with",
+      "price": 2.69,
+      "text": "11 Bowls available"
+    },
+    {
+      "id": 3,
+      "image": "https://restexpert.com/uploads/recipe/433/644x483/3189.jpg",
+      "name": "Baden style asparagus with Westphalian ham and egg pancakes",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    },
+    {
+      "id": 4,
+      "image": "https://restexpert.com/uploads/recipe/421/644x483/2673.jpg",
+      "name": "Baden style lentils with spätzle",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 5,
+      "image": "https://restexpert.com/uploads/recipe/370/644x483/3296.jpg",
+      "name": "Baked broccoli with creamy sauce",
+      "price": 3.49,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 6,
+      "image": "https://restexpert.com/uploads/recipe/431/644x483/3030.jpg",
+      "name": "Baked feta cheese",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 7,
+      "image": "https://restexpert.com/uploads/recipe/323/644x483/2733.jpg",
+      "name": "Baked goat cheese with garlic and honey-rosemary syrup",
+      "price": 3.49,
+      "text": "13 Bowls available"
+    },
+    {
+      "id": 8,
+      "image": "https://restexpert.com/uploads/recipe/389/644x483/2790.jpg",
+      "name": "Baked onions",
+      "price": 3.59,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 9,
+      "image": "https://restexpert.com/uploads/recipe/430/644x483/3292.jpg",
+      "name": "Baked vegetables with feta",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    }
+  ],
+  "cold-dishes": [
+    {
+      "id": 10,
+      "image": "https://restexpert.com/uploads/recipe/798/644x483/1527248125062920900.jpg",
+      "name": "Aspic",
+      "price": 2.29,
+      "text": "..."
+    },
+    {
+      "id": 11,
+      "image": "https://restexpert.com/uploads/recipe/651/644x483/2605.jpg",
+      "name": "Avocado-green apple Tartar sauce",
+      "price": 2.69,
+      "text": "..."
+    },
+    {
+      "id": 12,
+      "image": "https://restexpert.com/uploads/recipe/647/644x483/3382.jpg",
+      "name": "Avocado roll",
+      "price": 2.99,
+      "text": "..."
+    },
+    {
+      "id": 13,
+      "image": "https://restexpert.com/uploads/recipe/633/644x483/3068.jpg",
+      "name": "Bavarian snack plate",
+      "price": 3.29,
+      "text": "..."
+    },
+    {
+      "id": 14,
+      "image": "https://restexpert.com/uploads/recipe/595/644x483/3260.jpg",
+      "name": "Berlin style jelly",
+      "price": 3.49,
+      "text": "..."
+    },
+    {
+      "id": 15,
+      "image": "https://restexpert.com/uploads/recipe/616/644x483/2585.jpg",
+      "name": "Blue cheese-port wine pate",
+      "price": 3.29,
+      "text": "..."
+    },
+    {
+      "id": 16,
+      "image": "https://restexpert.com/uploads/recipe/789/644x483/1527249180076936900.jpg",
+      "name": "Buzhenina (oven-baked ham)",
+      "price": 3.49,
+      "text": "..."
+    },
+    {
+      "id": 17,
+      "image": "https://restexpert.com/uploads/recipe/601/644x483/2722.jpg",
+      "name": "Cold marinated salmon",
+      "price": 3.59,
+      "text": "..."
+    },
+    {
+      "id": 18,
+      "image": "https://restexpert.com/uploads/recipe/627/644x483/2762.jpg",
+      "name": "Caramelised onions",
+      "price": 2.99,
+      "text": "..."
+    }
+  ],
+  "soup": [
+    {
+      "id": 19,
+      "image": "https://restexpert.com/uploads/recipe/204/644x483/3310.jpg",
+      "name": "Berlin style potato soup",
+      "price": 2.29,
+      "text": "20 Bowls available"
+    },
+    {
+      "id": 20,
+      "image": "https://restexpert.com/uploads/recipe/749/644x483/1527245365034422200.jpg",
+      "name": "Borscht",
+      "price": 2.69,
+      "text": "11 Bowls available"
+    },
+    {
+      "id": 21,
+      "image": "https://restexpert.com/uploads/recipe/192/644x483/2676.jpg",
+      "name": "Cheese-leek soup",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    },
+    {
+      "id": 22,
+      "image": "https://restexpert.com/uploads/recipe/818/644x483/1527507744085200800.jpg",
+      "name": "Botvinia",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 23,
+      "image": "https://restexpert.com/uploads/recipe/438/644x483/3207.jpg",
+      "name": "Creamy fish soup",
+      "price": 3.49,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 24,
+      "image": "https://restexpert.com/uploads/recipe/435/644x483/2663.jpg",
+      "name": "Creamy smoked trout-greens soup",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 25,
+      "image": "https://restexpert.com/uploads/recipe/547/644x483/2589.jpg",
+      "name": "Beer soup",
+      "price": 3.49,
+      "text": "13 Bowls available"
+    },
+    {
+      "id": 26,
+      "image": "https://restexpert.com/uploads/recipe/860/644x483/1527508003087223700.jpg",
+      "name": "Beetroot soup (svekolnik), cold borscht, kholodnik, khlodnik, beet okroshka",
+      "price": 3.59,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 27,
+      "image": "https://restexpert.com/uploads/recipe/540/644x483/2939.jpg",
+      "name": "Bread soup",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    }
+  ],
+  "grill": [
+    {
+      "id": 28,
+      "image": "https://image.freepik.com/free-photo/roasted-pork-steak-wooden-surface_1150-44358.jpg",
+      "name": "Roasted pork steak on wooden surface",
+      "price": 2.29,
+      "text": "20 Bowls available"
+    },
+    {
+      "id": 29,
+      "image": "https://image.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill-tasty-food-weekend-meal-top-view-flat-lay_2829-7047.jpg",
+      "name": "Chicken skewers with slices of sweet peppers and dill",
+      "price": 2.69,
+      "text": "11 Bowls available"
+    },
+    {
+      "id": 30,
+      "image": "https://image.freepik.com/free-photo/healthy-tasty-vegetables-grilled-pan_1220-4453.jpg",
+      "name": "Healthy tasty vegetables grilled on pan",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    },
+    {
+      "id": 31,
+      "image": "https://image.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg",
+      "name": "Chicken wings of barbecue in sweetly sour sauce.",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 32,
+      "image": "https://image.freepik.com/free-photo/grilled-chicken-steak-vegetables-dark-background_1150-45257.jpg",
+      "name": "Grilled chicken steak and vegetables on dark background",
+      "price": 3.49,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 33,
+      "image": "https://image.freepik.com/free-photo/preparation-grilled-meat-barbecue-grill-wooden-background_23-2148206966.jpg",
+      "name": "Preparation of grilled meat on barbecue grill over wooden background",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 34,
+      "image": "https://image.freepik.com/free-photo/chicken-shish-kebab-with-vegetables-isolated-top-view-copy-space_123827-6537.jpg",
+      "name": "Chicken shish kebab with vegetables isolated top view copy space",
+      "price": 3.49,
+      "text": "13 Bowls available"
+    },
+    {
+      "id": 35,
+      "image": "https://image.freepik.com/free-photo/grilled-salmon-fish-with-seasoning-various-vegetables-black-stone-background_126277-79.jpg",
+      "name": "Grilled salmon fish with seasoning and various vegetables on black stone background",
+      "price": 3.59,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 36,
+      "image": "https://image.freepik.com/free-photo/ready-eat-skewers-meat-front-view_23-2148301298.jpg",
+      "name": "Ready to eat skewers of meat front view Premium",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    }
+  ],
+  "appetizer": [
+    {
+      "id": 37,
+      "image": "https://image.freepik.com/free-photo/fresh-cheese-plate-top-view_140725-402.jpg",
+      "name": "Fresh cheese plate top view Free",
+      "price": 2.29,
+      "text": "20 Bowls available"
+    },
+    {
+      "id": 38,
+      "image": "https://image.freepik.com/free-photo/meat-appetizer-plate-old-wooden-background_2829-16795.jpg",
+      "name": "Meat appetizer on a plate on old wooden background",
+      "price": 2.69,
+      "text": "11 Bowls available"
+    },
+    {
+      "id": 39,
+      "image": "https://image.freepik.com/free-photo/front-view-greece-salad-sliced-vegetable-salad-with-tomatoes-cucumbers-white-cheese-olives-inside-white-plate-vitamine-vegetables_140725-16048.jpg",
+      "name": "A front view greece salad sliced vegetable salad with tomatoes cucumbers white cheese and olives inside white plate vitamine vegetables",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    },
+    {
+      "id": 40,
+      "image": "https://image.freepik.com/free-photo/classic-italian-bruschetta-served-dark-board_1220-4038.jpg",
+      "name": "Classic italian bruschetta served on dark board",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 41,
+      "image": "https://image.freepik.com/free-photo/tasty-appetizing-classic-italian-spaghetti-pasta-with-tomato-sauce-cheese-parmesan-basil-plate-ingredients-cooking-pasta-white-marble-table_1150-45638.jpg",
+      "name": "Tasty appetizing classic italian spaghetti pasta with tomato sauce, cheese parmesan and basil on plate and ingredients for cooking pasta on white marble table",
+      "price": 3.49,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 42,
+      "image": "https://image.freepik.com/free-photo/healthy-hearty-salad-tuna-green-beans-tomatoes-eggs-potatoes-black-olives-close-up-bowl-table_2829-4485.jpg",
+      "name": "Healthy hearty salad of tuna, green beans, tomatoes, eggs, potatoes, black olives close-up in a bowl on the table",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 43,
+      "image": "https://image.freepik.com/free-photo/delicious-cheeseburger_1232-503.jpg",
+      "name": "Delicious cheeseburger",
+      "price": 3.49,
+      "text": "13 Bowls available"
+    },
+    {
+      "id": 44,
+      "image": "https://image.freepik.com/free-photo/club-sandwich-with-ham-lettuce-tomato-cheese-fries-wooden-board_140725-196.jpg",
+      "name": "Club sandwich with ham, lettuce, tomato, cheese, and fries on wooden board",
+      "price": 3.59,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 45,
+      "image": "image_9",
+      "name": "Beef dumpling in hot and sour soup",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    }
+  ],
+  "dessert": [
+    {
+      "id": 46,
+      "image": "https://image.freepik.com/free-photo/high-view-tasty-cupcake-fork_23-2148718738.jpg",
+      "name": "High view tasty cupcake and fork",
+      "price": 2.29,
+      "text": "20 Bowls available"
+    },
+    {
+      "id": 47,
+      "image": "https://image.freepik.com/free-photo/yogurt-with-chia-seed-berries-glasses_144627-22748.jpg",
+      "name": "Yogurt with chia seed and berries in glasses",
+      "price": 2.69,
+      "text": "11 Bowls available"
+    },
+    {
+      "id": 48,
+      "image": "https://image.freepik.com/free-photo/front-view-yummy-chocolate-cake-with-fruits-dark-wall_179666-30751.jpg",
+      "name": "Front view yummy chocolate cake with fruits on dark wall",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    },
+    {
+      "id": 49,
+      "image": "https://image.freepik.com/free-photo/sponge-cake-with-strawberries-top_144627-45517.jpg",
+      "name": "Sponge cake with strawberries on the top",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 50,
+      "image": "https://image.freepik.com/free-photo/cheesecake-with-berries-decorated-plate_7502-7381.jpg",
+      "name": "Cheesecake with berries on decorated plate",
+      "price": 3.49,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 51,
+      "image": "https://image.freepik.com/free-photo/freshly-baked-croissants-with-raspberry-jam-raspberry-fruits_114579-11708.jpg",
+      "name": "Freshly baked croissants with raspberry jam and raspberry fruits",
+      "price": 3.29,
+      "text": "22 Bowls available"
+    },
+    {
+      "id": 52,
+      "image": "https://image.freepik.com/free-photo/black-forest-cake-isolated_1339-66942.jpg",
+      "name": "Black forest cake isolated",
+      "price": 3.49,
+      "text": "13 Bowls available"
+    },
+    {
+      "id": 53,
+      "image": "https://image.freepik.com/free-photo/decorating-delicious-homemade-eclairs-with-chocolate-peanuts_155003-1868.jpg",
+      "name": "Decorating delicious homemade eclairs with chocolate and peanuts",
+      "price": 3.59,
+      "text": "17 Bowls available"
+    },
+    {
+      "id": 54,
+      "image": "https://image.freepik.com/free-photo/chocolate-cake-with-white-cream-sprinkled-with-cocoa-berries_140725-3237.jpg",
+      "name": "Chocolate cake with white cream sprinkled with cocoa and berries",
+      "price": 2.99,
+      "text": "16 Bowls available"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.info-item {
+    display: flex;
+    margin: 0 0 16px 0;
+
+    &:last-child {
+        margin: 0;
+    }
+
+    &__image {
+        width: 18px;
+        height: 18px;
+        margin: 0 9px 0 0;
+    }
+
+    &__title {
+        margin: 0 0 2px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 140%;
+        color: #ABBBC2;
+    }
+}

@@ -1,0 +1,11 @@
+.food-menu {
+    margin: 24px 0 0 0;
+
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-height: 570px;
+        padding: 5px 5px;
+        overflow-y: scroll;
+    }
+}

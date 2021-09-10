@@ -1,0 +1,48 @@
+.most-ordered {
+    width: 100%;
+    max-width: 324px;
+    height: fit-content;
+    max-height: 429px;
+    padding: 24px 24px;
+    background: #1F1D2B;
+    border-radius: 8px;
+
+    &__header {
+        width: 324px;
+        padding: 0 0 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #393C49;
+    }
+
+    &__header_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    &__button {
+        width: 324px;
+        height: 48px;
+        margin: 32px 0 0 0;
+        border: 1px solid #EA7C69;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background: none;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        color: #EA7C69;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

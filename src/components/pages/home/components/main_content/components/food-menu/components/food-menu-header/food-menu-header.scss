@@ -1,0 +1,19 @@
+.food-menu-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+        margin: 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+}

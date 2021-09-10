@@ -1,0 +1,47 @@
+.credit-card-form {
+    display: flex;
+    flex-direction: column;
+
+    &__label {
+        margin: 0 0 8px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__input {
+        margin: 0 0 16px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 14px;
+        width: 357px;
+        height: 48px;
+
+        background: #2D303E;
+        border: 1px solid #393C49;
+        box-sizing: border-box;
+        border-radius: 8px;
+        outline: none;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #E0E6E9;
+    }
+
+    &__small {
+        width: 172px;
+        height: 48px;
+        margin: 8px 0 0 0;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

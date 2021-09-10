@@ -10,6 +10,7 @@
     }
 
     &__list_item {
+        height: fit-content ;
         margin: 0 32px -2px 0;
         list-style-type: none;
         transition: border-bottom .2s ease-in-out;

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import Dashboard from "../pages/dashboard/dashboard";
 import Home from "../pages/home/home";
+import Logout from "../pages/logout/logout";
 import Settings from "../pages/settings/settings";
 import Sidebar from "../sidebar/sidebar";
 
@@ -18,6 +19,7 @@ const App = () => {
                         <Redirect from="/home" to="/home/hot-dishes" />
                         <Route path="/dashboard" component={Dashboard} />
                         <Route path="/settings" component={Settings} />
+                        <Route path="/logout" component={Logout} />
                     </div>
                 </Router>
             </div>

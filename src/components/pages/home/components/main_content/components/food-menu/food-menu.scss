@@ -4,8 +4,23 @@
     &__items {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-height: 570px;
-        padding: 5px 5px;
+        max-height: 575px;
+        padding: 10px 10px;
         overflow-y: scroll;
+
+        @media (max-width: 1064px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 24px;
+        }
+
+        @media (max-width: 860px) {
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 24px;
+        }
+
+        @media (max-width: 620px) {
+            grid-template-columns: 1fr;
+            grid-column-gap: 0;
+        }
     }
 }

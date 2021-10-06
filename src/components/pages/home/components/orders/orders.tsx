@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { OrdersNotification } from "../../../../pop-up/notification/notification";
 import Payment from "../../../../pop-up/payment/payment";
 import { mathRound } from "../../../provider/math-options";
@@ -12,22 +12,20 @@ interface OrdersProps {
     title: string;
 }
 
-const Orders = ({title}: OrdersProps) => {
-    const {order} = useTypedSelector(state => state.order);
+const Orders = ({ title }: OrdersProps) => {
+    const { order } = useTypedSelector(state => state.order);
     const [payment, setPayment] = React.useState(false);
     const [stateNotification, ShowNotification] = React.useState(false);
     const [isActive, SetIsActive] = React.useState(false);
 
-    const HandleClick = (active: boolean) => {
-        if (order.total === 0) {
+    const handleClick = (active: boolean) => {
+        if (order.products.length === 0) {
             setPayment(false);
             ShowNotification(true);
             setTimeout(() => {
                 ShowNotification(false);
             }, 2000);
-        }
-
-        if (active && order.total > 0) {
+        } else if (active && order.total > 0) {
             setPayment(true);
         } else if (!active) {
             ShowNotification(false);
@@ -41,7 +39,7 @@ const Orders = ({title}: OrdersProps) => {
 
     return (
         <Context.Provider value={{
-            HandleClick
+            handleClick
         }}>
             <>
                 <div className={isActive ? "orders orders__open" : "orders orders__close"}>
@@ -61,10 +59,10 @@ const Orders = ({title}: OrdersProps) => {
                         </div>
                         <div className="orders__content">
                             {order && order.products.map(item =>
-                                                             <OrdersItem
-                                                                 key={item.id}
-                                                                 product={item}
-                                                             />
+                                <OrdersItem
+                                    key={item.id}
+                                    product={item}
+                                />
                             )}
                         </div>
                         <div className="orders__total">
@@ -77,11 +75,11 @@ const Orders = ({title}: OrdersProps) => {
                                 <strong className="orders__subtotal_price">$ {mathRound(order.total, 100)}</strong>
                             </div>
                         </div>
-                        <button className="orders__button_payment" onClick={() => HandleClick(true)}>
+                        <button className="orders__button_payment" onClick={() => handleClick(true)}>
                             Continue to Payment
                         </button>
                     </div>
-                    <OrdersNotification active={stateNotification}/>
+                    <OrdersNotification active={stateNotification} />
                     <div
                         className={isActive ? "orders__toggle orders__toggle__active" : "orders__toggle"}
                         onClick={() => toggleClick()}>
@@ -94,7 +92,7 @@ const Orders = ({title}: OrdersProps) => {
                         </p>}
                     </div>
                 </div>
-                <Payment active={payment}/>
+                <Payment active={payment} />
             </>
         </Context.Provider>
     );

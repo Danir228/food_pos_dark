@@ -4,7 +4,12 @@
     padding: 16px 16px;
     background: #1F1D2B;
     border-radius: 8px;
-    margin: 0 24px 0 0;
+
+    @media (max-width: 1200px) {
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+    }
 
     &:last-child {
         margin: 0;
@@ -43,6 +48,12 @@
     &__content {
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 1200px) {
+            width: 0;
+            overflow: hidden;
+            height: 0;
+        }
     }
 
     &__number {

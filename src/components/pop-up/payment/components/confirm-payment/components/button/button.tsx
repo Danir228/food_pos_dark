@@ -8,11 +8,11 @@ interface TypeButtonProps {
 }
 
 const ButtonPayment = ({ text, clname, add }: TypeButtonProps) => {
-    const { HandleClick } = useContext(Context);
+    const { handleClick } = useContext(Context);
 
     const showClick = () => {
         if (add) {
-            HandleClick();
+            handleClick();
         }
     };
 

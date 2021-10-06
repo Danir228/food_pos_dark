@@ -17,7 +17,7 @@ type RowsItemProps = {
 
 const RowsItem = ({ rows_item }: RowsItemProps) => {
     return (
-        <div className="rows-item">
+        <div className="rows-item" title={rows_item.text}>
             <span className="rows-item__customer">
                 <img src={rows_item.image} className="rows-item__customer_image" />
                 <strong className="rows-item__customer_name">{rows_item.name}</strong>

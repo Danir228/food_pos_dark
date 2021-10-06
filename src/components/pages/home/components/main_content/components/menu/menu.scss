@@ -11,9 +11,13 @@
 
     &__list_item {
         height: fit-content ;
-        margin: 0 32px -2px 0;
+        margin-right: 32px;
         list-style-type: none;
         transition: border-bottom .2s ease-in-out;
+
+        @media (max-width: 860px) {
+            margin-right: 10px;
+        }
 
         &:last-child {
             margin: 0;

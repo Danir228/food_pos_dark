@@ -1,4 +1,5 @@
 import { Redirect, Route } from "react-router-dom";
+import Appereance from "./components/appereance/appereance";
 import ProductManagement from "./components/product-management/product-management";
 import SettingOption from "./components/setting-option/setting-option";
 import "./settings.scss";
@@ -13,6 +14,7 @@ const Settings = () => {
             </div>
             <div className="settings__content">
                 <Route path="/settings/management" component={ProductManagement} />
+                <Route path="/settings/appereance" component={Appereance} />
                 <Redirect from="/settings" to="/settings/management/hot-dishes" />
                 {/* <ProductManagement /> */}
             </div>

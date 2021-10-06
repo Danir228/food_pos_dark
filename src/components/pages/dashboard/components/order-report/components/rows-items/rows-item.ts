@@ -66,4 +66,64 @@ export const RowsItemArray = [
         status_color: "#50D1AA",
         status_background: "rgba(107, 226, 190, 0.24)"
     },
+    {
+        id: 7,
+        image: human_6,
+        name: "Armin Arlert",
+        text: "Hot spicy fried rice with omelet",
+        total: 435,
+        status_text: "Completed",
+        status_color: "#50D1AA",
+        status_background: "rgba(107, 226, 190, 0.24)"
+    },
+    {
+        id: 8,
+        image: human_6,
+        name: "Armin Arlert",
+        text: "Hot spicy fried rice with omelet",
+        total: 435,
+        status_text: "Completed",
+        status_color: "#50D1AA",
+        status_background: "rgba(107, 226, 190, 0.24)"
+    },
+    {
+        id: 9,
+        image: human_6,
+        name: "Armin Arlert",
+        text: "Hot spicy fried rice with omelet",
+        total: 435,
+        status_text: "Completed",
+        status_color: "#50D1AA",
+        status_background: "rgba(107, 226, 190, 0.24)"
+    },
+    {
+        id: 10,
+        image: human_6,
+        name: "Armin Arlert",
+        text: "Hot spicy fried rice with omelet",
+        total: 435,
+        status_text: "Completed",
+        status_color: "#50D1AA",
+        status_background: "rgba(107, 226, 190, 0.24)"
+    },
+    {
+        id: 11,
+        image: human_6,
+        name: "Armin Arlert",
+        text: "Hot spicy fried rice with omelet",
+        total: 435,
+        status_text: "Completed",
+        status_color: "#50D1AA",
+        status_background: "rgba(107, 226, 190, 0.24)"
+    },
+    {
+        id: 12,
+        image: human_6,
+        name: "Armin Arlert",
+        text: "Hot spicy fried rice with omelet",
+        total: 435,
+        status_text: "Completed",
+        status_color: "#50D1AA",
+        status_background: "rgba(107, 226, 190, 0.24)"
+    },
 ];

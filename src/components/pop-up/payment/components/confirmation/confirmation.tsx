@@ -10,10 +10,10 @@ import "./confirmation.scss";
 
 const Confirmation = () => {
     const { order } = useTypedSelector(state => state.order);
-    const { HandleClick } = useContext(Context);
+    const { handleClick } = useContext(Context);
     return (
         <div className="confirmation">
-            <img className="confirmation__line" src={line} alt="line" onClick={() => HandleClick(false)} />
+            <img className="confirmation__line" src={line} alt="line" onClick={() => handleClick(false)} />
             <div className="confirmation__header">
                 <div className="confirmation__header_title">
                     <h3 className="confirmation__title">Confirmation</h3>

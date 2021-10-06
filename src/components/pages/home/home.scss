@@ -1,14 +1,10 @@
 .home {
-    height: 100%;
-    width: 100%;
     display: flex;
-    position: relative;
     overflow: hidden;
 
     &__container {
         width: 100%;
         height: fit-content;
-        min-width: 633px;
         margin: 24px 24px 0 24px;
     }
 }

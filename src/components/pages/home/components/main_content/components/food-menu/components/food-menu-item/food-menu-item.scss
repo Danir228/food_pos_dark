@@ -1,14 +1,13 @@
 .food-menu-item {
     position: relative;
-    width: 192px;
-    height: 260px;
     margin: 24px 12px 24px 0;
     color: #fff;
 
     &__image {
         position: absolute;
-        width: 132px;
-        height: 132px;
+        width: calc(100% - 20px);
+        height: 100%;
+        max-height: 132px;
         top: -34px;
         left: 50%;
         right: 50%;
@@ -22,7 +21,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 192px;
         height: fit-content;
         margin: 34px 0 0 0;
         padding: 114px 0 0 0;

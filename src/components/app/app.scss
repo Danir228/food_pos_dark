@@ -25,9 +25,8 @@
 
 .app {
     position: relative;
-    width: 100%;
-    height: fit-content;
-    max-width: 1920px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     display: flex;
@@ -37,6 +36,7 @@
 
     &__container {
         width: 100%;
+        max-width: 1920px;
         display: flex;
         justify-content: center;
         padding: 24px 24px;
@@ -44,5 +44,6 @@
 
     &__content {
         width: 100%;
+        height: fit-content;
     }
 }

@@ -64,6 +64,11 @@
     justify-content: space-between;
     background-color: #1F1D2B;
     border-radius: 16px;
+    overflow-x: clip;
+
+    &:hover {
+        overflow-y: auto;
+    }
 
     &__logo_wrapper {
         position: relative;
@@ -85,7 +90,7 @@
 
     &__items {
         width: 92px;
-        height: 102px;
+        height: 101px;
         display: flex;
         margin: 0 0 0 12px;
         align-items: center;
